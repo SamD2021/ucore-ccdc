@@ -1,0 +1,5 @@
+[[customizations.user]]
+name = "core"
+password = "$1$V4LXMGNC$mkWwQNcMyE084s92z4.ks."
+key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPjwUEL1f/o7w/39UJCQ4hw2spgmSx6xKFU9AwP24ywq samuelramos852@gmail.com"
+groups = ["wheel"]

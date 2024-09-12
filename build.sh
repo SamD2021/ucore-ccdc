@@ -4,7 +4,6 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
@@ -14,6 +13,9 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
+rpm-ostree install dnf
+rpm-ostree install qemu-guest-agent
+rpm-ostree install cloud-init
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
